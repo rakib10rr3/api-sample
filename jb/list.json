@@ -90,7 +90,7 @@
       "eduRec": " \n\u2022 Advance Level or Equivalent (The education may be relaxed for the highly \n\u2022 experienced candidate)",
       "experience": "At least 8 year(s)",
       "standout": "0",
-      "logo": "NULL",
+      "logo": null,
       "lantype": "1"
     },
     {
@@ -103,7 +103,7 @@
       "eduRec": "Bachelor in any discipline",
       "experience": "At least 7 year(s)",
       "standout": "0",
-      "logo": "NULL",
+      "logo": null,
       "lantype": "1"
     },
     {
@@ -142,7 +142,7 @@
       "eduRec": "Bachelor`s degree in marketing or related field, MBA Preferred",
       "experience": "3 to 4 year(s)",
       "standout": "1",
-      "logo": "NULL",
+      "logo": null,
       "lantype": "1"
     },
     {
