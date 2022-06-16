@@ -71,17 +71,17 @@
         }
       ]
     }
+  ],
+  "response": [
+    {
+      "key": "balance",
+      "value": 100,
+      "type": "Double"
+    },
+    {
+      "key": "name",
+      "value": "Rakib",
+      "type": "String"
+    }
   ]
- response : [
-              {
-              "key": "balance",
-              "value": 100.00,
-              "type": "Double"
-              },
-{
-              "key": "name",
-              "value": "Rakib",
-              "type": "String"
-              },
-              
 }
