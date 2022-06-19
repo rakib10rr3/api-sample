@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "type": "Column",
+      "id": "column",
+      "children": [
+        {
+          "type": "Text",
+          "id": "text",
+          "value": "Hello from mars"
+        },
+        {
+          "type": "InputText",
+          "id": "input",
+          "hint": "Put your reference here",
+          "cpsName": "reference"
+        }
+      ]
+    }
+  ],
+  "response": [
+    {
+      "key": "balance",
+      "value": 100,
+      "type": "Double"
+    },
+    {
+      "key": "name",
+      "value": "Rakib",
+      "type": "String"
+    }
+  ]
+}
