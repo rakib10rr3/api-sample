@@ -1,0 +1,99 @@
+[
+  {
+    "id": "s1",
+    "nextPageId": "s2",
+    "wigets": [
+      {
+        "id": "w1",
+        "type": "NavigateUp",
+        "navigateTo": "s0"
+      },
+      {
+        "id": "w2",
+        "type": "InputBox",
+        "inputKey": "studentId",
+        "hint": [
+          {
+            "language": "en",
+            "value": "Student Id"
+          },
+          {
+            "language": "bn",
+            "value": "বিল সময়সীমা"
+          }
+        ]
+      },
+      {
+        "id": "w3",
+        "type": "ProceedButton",
+        "cta": {
+          "type": "API",
+          "method": "GET",
+          "apiUrl": "https://xyz.com/sudent/{input.studentId}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "s2",
+    "nextPageId": "s3",
+    "wigets": [
+      {
+        "id": "w1",
+        "type": "NavigateUp",
+        "navigateTo": "s1"
+      },
+      {
+        "id": "w2",
+        "type": "Text",
+        "value": "input.studentId"
+      },
+      {
+        "id": "w3",
+        "type": "InputBox",
+        "inputKey": "studentName",
+        "defaultValue": "response.studentName",
+        "hint": [
+          {
+            "language": "en",
+            "value": "Student Name"
+          },
+          {
+            "language": "bn",
+            "value": "বিল সময়সীমা"
+          }
+        ]
+      },
+      {
+        "id": "w4",
+        "type": "VerticalList",
+        "value": "response.courses",
+        "row": {
+          "type": "InfoThumbnail",
+          "logoUrl": "response.courses.logoUrl",
+          "title": "response.courses.name"
+        }
+      },
+      {
+        "id": "w5",
+        "type": "ProceedButton",
+        "cta": {
+          "type": "API",
+          "method": "POST",
+          "apiUrl": "https://xyz.com/student/update/{input.studentId}",
+          "params": [
+            {
+              "studentId": "input.studentId"
+            },
+            {
+              "studentName": "input.studentName"
+            },
+            {
+              "age": "response.age"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
