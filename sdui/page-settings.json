@@ -27,7 +27,7 @@
         "id": "w3",
         "type": "ProceedButton",
         "cta": {
-          "type": "API",
+          "type": "Navigation",
           "method": "GET",
           "apiUrl": "https://xyz.com/sudent/{input.studentId}"
         }
