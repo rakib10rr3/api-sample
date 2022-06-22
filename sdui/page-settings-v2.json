@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "data": [
+  "pages": [
     {
       "id": "s1",
       "nextPageId": "s2",
