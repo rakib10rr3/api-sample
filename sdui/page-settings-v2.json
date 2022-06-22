@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "data": [
+    {
+      "id": "s1",
+      "nextPageId": "s2",
+      "wigets": [
+        {
+          "id": "w1",
+          "type": "NavigateUp",
+          "attributes": {
+            "navigateTo": "s0"
+          }
+        },
+        {
+          "id": "w2",
+          "type": "InputBox",
+          "attributes": {
+            "inputKey": "studentId",
+            "hint": [
+              {
+                "language": "en",
+                "value": "Enter Student Id"
+              },
+              {
+                "language": "bn",
+                "value": "বিল সময়সীমা"
+              }
+            ],
+            "label": [
+              {
+                "language": "en",
+                "value": "Student Id"
+              },
+              {
+                "language": "bn",
+                "value": "বিল সময়সীমা"
+              }
+            ]
+          }
+        },
+        {
+          "id": "w3",
+          "type": "Text",
+          "attributes": {
+            "value": "Hello there"
+          }
+        },
+        {
+          "id": "w4",
+          "type": "ProceedButton",
+          "cta": {
+            "type": "Navigation",
+            "method": "GET",
+            "apiUrl": "https://xyz.com/sudent/{input.studentId}"
+          }
+        }
+      ]
+    }
+  ]
+}
