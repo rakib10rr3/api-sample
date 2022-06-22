@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "pages": [
+  "data": [
     {
       "id": "s1",
       "nextPageId": "s2",
@@ -17,26 +17,8 @@
           "type": "InputBox",
           "attributes": {
             "inputKey": "studentId",
-            "hint": [
-              {
-                "language": "en",
-                "value": "Enter Student Id"
-              },
-              {
-                "language": "bn",
-                "value": "বিল সময়সীমা"
-              }
-            ],
-            "label": [
-              {
-                "language": "en",
-                "value": "Student Id"
-              },
-              {
-                "language": "bn",
-                "value": "বিল সময়সীমা"
-              }
-            ]
+            "hint": "Enter Student Id",
+            "label": "Student Id"
           }
         },
         {
